@@ -7,8 +7,10 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public nav: NavController) { }
 
+  irPara(pagina: string) {
+    console.log('Página: ' + pagina);
   }
 
 }
